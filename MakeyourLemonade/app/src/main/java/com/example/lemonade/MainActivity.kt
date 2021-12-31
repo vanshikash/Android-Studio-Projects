@@ -105,8 +105,8 @@ class MainActivity : AppCompatActivity() {
             }
 
             SQUEEZE -> {
-                squeezeCount +=1
-                lemonSize -=1
+                squeezeCount += 1
+                lemonSize -=  1
                 lemonadeState = if (lemonSize == 0) {
                     DRINK
                 } else {
